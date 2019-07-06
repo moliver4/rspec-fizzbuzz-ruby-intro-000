@@ -3,12 +3,12 @@
 int = gets.chomp.to_i
 def fizzbuzz(int)
   if (int % 3 == 0) && (int % 5 != 0)
-    a = "Fizz"
+    puts "Fizz"
   elsif (int % 5 == 0) && (int % 3 != 0)
-    b = "Buzz"
+    puts "Buzz"
   elsif (int % 3 == 0) && (int % 5 == 0)
-    c = "FizzBuzz"
+    puts "FizzBuzz"
   else
-    d = nil
+    puts nil
   end
 end
