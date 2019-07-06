@@ -1,7 +1,6 @@
 # Don't forget! This file needs to be 'required' in its spec file
 # See README.md for instructions on how to do this
-puts "Enter any number to see if it will Fizz or Buzz!"
-int = gets.chomp.to_i
+
 def fizzbuzz(int)
   if (int % 3 == 0) && (int % 5 != 0)
     puts "Fizz"
@@ -13,5 +12,3 @@ def fizzbuzz(int)
     puts nil
   end
 end
-
-fizzbuzz(int)
